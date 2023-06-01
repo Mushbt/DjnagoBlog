@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['mushbt-django-blog.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['mushbt-django-blog.herokuapp.com', '8000-mushbt-djnagoblog-3f73ton97ys.ws-eu98.gitpod.io', 'localhost']
 
 
 # Application definition
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'django_summernote',
     'blog',
 ]
 
